@@ -1,6 +1,6 @@
 # NaturalDisaster
 
-In this project, we aim to predict property damage due to thunderstorm winds in Texas using shallow (one and two hidden layer) neural networks. Our method is heavily based on: https://arxiv.org/abs/1807.03456 
+In this project, we aim to predict property damage due to thunderstorm winds in Texas using shallow (one and two hidden layer) neural networks. Our method is heavily based on: https://arxiv.org/abs/1807.03456. Part of our code uses, adds to, and adjusts the methods used here https://github.com/jdiaz4302/tornadoesr. 
 
 Storm Events Database (NOAA)
 ---
