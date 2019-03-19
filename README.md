@@ -12,7 +12,7 @@ Coming soon
 
 Input Feautures
 ---
-The initial features we used were time, magnitude of the storm, damage to crops, begin latitude, begin longitude, end latitude, and longitude. We both trained a one hidden layer and a two hidden layer neural net on these features, and got a lowest MSE over a 100 iterations of 0.01. Later we added the mean income per county in Texas which improved the prediction accuracy of our model to a MSE of 0.00463. Finally, we also included the "storm order" by county, which is a counter of how many storms have already occurred in this county. The underlying idea is that counties that see more and more storms would be better prepared. We find that this metric drives down our MSE even further to 3.13909 * 10^-5. 
+The initial features we used were time, magnitude of the storm, damage to crops, begin latitude, begin longitude, end latitude, and longitude. We both trained a one hidden layer and a two hidden layer neural net on these features, and got a lowest MSE over a 100 iterations of ?. Later we added the mean income per county in Texas and the "storm order" by county, which is a counter of how many storms have already occurred in this county. The underlying idea is that counties that see more and more storms would be better prepared. We find that adding these two metrics gives us a minimum MSE of 0.535. 
 
 We also identified features that we could not include this time due to their unavailability but that could provide very useful insight into property damage done. Such features include county spending on infrastructure and change in wind direction.  
 
