@@ -16,6 +16,10 @@ The initial features we used were time, magnitude of the storm, damage to crops,
 
 We also identified features that we could not include this time due to their unavailability but that could provide very useful insight into property damage done. Such features include county spending on infrastructure and change in wind direction.  
 
+How to run the code
+---
+The code is split up into two files: texas_pure_thunder.ipynb and texas_thunder_augmented.ipynb. Both files can be run from first to last cell to show the results we have in the report. The rest of the repository consists of data files we used to perform our experiments. 
+
 Important Notes
 ---
 1. Our models are conditional models, meaning they assume that property damage WILL occur. This was the same approach as done by https://arxiv.org/abs/1807.03456. However, we did not include a binary classifier that decided whether or not a storm would cause damage, and therefore we omitted all zero entries for property damage. 
