@@ -8,7 +8,7 @@ We downloaded the top 500 most damaging thunderstorms from the Storm Events Data
 
 US Census Data
 ---
-Coming soon
+We used a combination of the U.S. Census Bureau’s American Community Survey 5-Year Estimates from 2009-2017 and the U.S. Census Bureau’s 1990 and 2000 decennial US census data to get each county's mean household income during each storm event. For events that transpired between 2009 and 2018, we used the 5-Year Estimates (the values changed each year, but were based on data from the past 5 years of surveys) as the data better represented yearly trends. For events that happened in 2018 we used the data from 2017 as the 2018 numbers are not available at this time. For events that happened before 2009, we used the decennial census and used the closest year's data (1990, 2000, or 2009) as yearly estimates were not available that far back.
 
 Input Feautures
 ---
